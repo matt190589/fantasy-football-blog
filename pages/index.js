@@ -20,13 +20,12 @@ export default function Home({ allPostsData }) {
       </Head>
       <section classname={utilStyles.headingMd}>
         <p>
-          I'm the Fantasy Football Tipster and every Game Week I'm here to
-          discuss the best Ins and Outs before the upcoming transfer deadline
+          I'm the Fantasy Football Tipster! Every Game Week I'm here to discuss
+          the best Ins and Outs before the upcoming transfer deadline.
         </p>
         <p>
           {" "}
           (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.){" "}
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
