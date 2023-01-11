@@ -23,10 +23,6 @@ export default function Home({ allPostsData }) {
           I'm the Fantasy Football Tipster! Every Game Week I'm here to discuss
           the best Ins and Outs before the upcoming transfer deadline.
         </p>
-        <p>
-          {" "}
-          (This is a sample website - you’ll be building a site like this on{" "}
-        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
