@@ -20,8 +20,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section classname={utilStyles.headingMd}>
         <p>
-          I'm the Fantasy Football Tipster! Every Game Week I'm here to discuss
-          the best Ins and Outs before the upcoming transfer deadline.
+          I'm the Fantasy Football Tipster! Every Game Week, I'll be here to
+          discuss the best Ins and Outs before the upcoming transfer deadline.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -30,8 +30,6 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               {title}
-              <br />
-              {id}
               <br />
               {date}
             </li>
