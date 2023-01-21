@@ -44,9 +44,9 @@ export default function Layout({ children, home }) {
               <Image
                 priority
                 src="/images/profile_logo.png"
-                className={utilStyles.borderCircle}
+                className={utilStyles.borderSquare}
                 height={108}
-                width={188}
+                width={165}
                 alt="Fantasy Football Tipster logo"
               />
             </Link>
