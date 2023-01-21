@@ -4,6 +4,7 @@ import Head from "next/head";
 import Date from "../../components/Date";
 import utilStyles from "../../styles/utils.module.css";
 import Image from "next/image";
+import CardPost from "../../components/CardPost";
 
 export default function Post({ postData }) {
   return (
@@ -28,6 +29,7 @@ export default function Post({ postData }) {
           />
         </div>
       </article>
+      <CardPost postData={postData}></CardPost>
     </Layout>
   );
 }
