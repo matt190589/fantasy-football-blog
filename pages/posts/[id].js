@@ -4,7 +4,6 @@ import Head from "next/head";
 import Date from "../../components/Date";
 import utilStyles from "../../styles/utils.module.css";
 import Image from "next/image";
-import CardPost from "../../components/CardPost";
 
 export default function Post({ postData }) {
   return (
@@ -12,9 +11,9 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
+      <article className="card card-page">
+        <h1 className="post-title">{postData.title}</h1>
+        <div className="post-date">
           {" "}
           <Date dateString={postData.date} />
         </div>
@@ -29,7 +28,6 @@ export default function Post({ postData }) {
           />
         </div>
       </article>
-      <CardPost postData={postData}></CardPost>
     </Layout>
   );
 }

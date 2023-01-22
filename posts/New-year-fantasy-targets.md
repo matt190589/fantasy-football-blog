@@ -2,7 +2,7 @@
 title: "New year, time for a renewed effort"
 date: "2023-01-01"
 blogImage: "/images/End_of_the_year_GW_18.png"
-coverImage: 'create image'
+coverImage: "/images/Fantasy Premier league logo.png"
 ---
 
 An abysmal start to the season has left my team languishing at the bottom or in the relegation zone in most of my mini-leagues. To add to the woes, I'm 12-5 down in a head-to-head league.
