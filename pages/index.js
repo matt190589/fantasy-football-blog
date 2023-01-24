@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import Layout, { siteTitle } from "../components/Layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Date from "../components/Date";
@@ -24,7 +24,8 @@ export default function Home({ allPostsData }) {
       <section classname={utilStyles.headingMd}>
         <p>
           I'm the Fantasy Football Tipster! Every Game Week, I'll be here to
-          discuss the best Ins and Outs before the upcoming transfer deadline.
+          discuss the best Ins and Outs before the upcoming transfer deadline
+          while sharing my own wins and woes along the way.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

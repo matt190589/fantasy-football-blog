@@ -1,5 +1,5 @@
 .container {
-    max-width: 36rem;
+    max-width: 72rem;
     padding: 0 1rem;
     margin: 3rem auto 6rem;
 }
@@ -7,6 +7,7 @@
 .header {
     display: flex;
     flex-direction: column;
+    justify-content: stretch;
     align-items: center;
 }
 
