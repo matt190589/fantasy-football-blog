@@ -2,7 +2,7 @@
 title: "What's happened Haaland?"
 date: "2023-01-17"
 blogImage: "/images/Gameweek_20_Score.png"
-coverImage: "/images/Haaland_cover.png"
+coverImage: "images/whats-happened-haaland.png"
 ---
 
 Is it just a blip or is this a return to the mean? Man City were on the wrong side of a terrible refereeing decision last Saturday but Haaland also registered his lowest touches in the box in any Premier League match that he's started this season. Let's not jump to conclusions as he is still an undeniable threat but other captains can be considered. At the top of this list has to Marcus Rashford has delivered every week since returning from Qatar.
