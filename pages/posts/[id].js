@@ -18,12 +18,11 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        <div className="display: flex flex-direcction: center align-items: center">
+        <div>
           <h1>Team Insight</h1>
-          <Image
+          <img
+            className="card-img"
             src={postData.blogImage}
-            height={300}
-            width={300}
             alt="My weekly fantasy team"
           />
         </div>
