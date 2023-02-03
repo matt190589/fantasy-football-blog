@@ -9,9 +9,11 @@ export default function CardPost({ allPostData }) {
         Posted on <Date dateString={allPostData.date} />
       </div>
       <h3>{allPostData.title}</h3>
-      <Link className="btn-card" href={`/posts/${allPostData.id}`}>
-        Read more...
-      </Link>
+      <div className="content">
+        <Link className="btn-card" href={`/posts/${allPostData.id}`}>
+          Read more...
+        </Link>
+      </div>
     </div>
   );
 }
