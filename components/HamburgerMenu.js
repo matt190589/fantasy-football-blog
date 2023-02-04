@@ -25,6 +25,15 @@ const HamburgerMenu = () => {
             <div className={active ? "active-hamburger" : "hamburger"}></div>
           </div>
         </div>
+        <div className={active ? "activeSidenav" : "sidenav"}>
+          <div className="navlist">
+            {NAV_LIST.map((item, i) => (
+              <div key={i} className="navtext">
+                <Link href={item.href}>{item.text}</Link>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );
