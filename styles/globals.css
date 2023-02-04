@@ -41,13 +41,6 @@ header a {
   color: #fff;
 }
 
-nav {
-  display: flex;
-  padding: 16px;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .container {
   max-width: 768px;
   height: auto;
@@ -144,72 +137,78 @@ nav {
   }
 }
 
-.nav__menu-bar {
+.nav-container {
+  background: steelblue;
+}
+
+.nav-wrapper {
+  padding: 5px  40px;
   display: flex;
-  flex-direction: column;
-  row-gap: 6px;
-  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav__menu-bar div {
-  width: 40px;
-  height: 4px;
-  background-color: black;
-  border-radius: 2px;
+.nav-logo {
+  width: 100px;
 }
 
-.nav__menu-list {
-  display: flex;
-  position: fixed;
-  float: right;
-  top: 60px;
-  width: 288px;
-  row-gap: 24px;
-  padding: 24px 16px;
-  transition: all 0.2s;
-  min-height: calc(100vh - 60px);
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(255, 101, 47, .2);
+  transition: all 0.5s ease-in-out;
+}
+.hamburger::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-10px);
 }
 
-.nav__menu-list.active {
-  right: 0;
+.hamburger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(10px);
 }
 
-.nav__link {
-  font-size: 18px;
-  position: relative;
-  transition: all 0.2s;
+.active-hamburger {
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  transform: translateX(-50px);
+  background: transparent;
+  transition: all 0.5s ease-in-out;
 }
 
-.nav__link:hover {
-  font-weight: bold;
+.active-hamburger::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(45deg) translate(35px -35px);
 }
 
-@media screen and (min-width: 768px) {
-  .nav__menu-bar {
-    display: none;
-  }
-
-  .nav__menu-list {
-    position: unset;
-    flex-direction: row;
-    min-height: fit-content;
-    width: fit-content;
-    column-gap: 24px;
-    align-items: center;
-  }
-
-  .nav__link::before {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 6px;
-    bottom: -16px;
-    left: 0;
-    background-color: black;
-    transition: all 0.2s;
-  }
-
-  .nav__link:hover:before {
-    width: 100%;
-  }
+.active-hamburger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-45deg) translate(35px 35px);
 }

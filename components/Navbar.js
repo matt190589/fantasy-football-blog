@@ -28,13 +28,6 @@ const Navbar = () => {
             alt="Fantasy Football Tipster logo"
           />
         </Link>
-        <div
-          onClick={() => setNavActive(!navActive)}
-          className="nav__menu-bar"
-        ></div>
-        <div></div>
-        <div></div>
-        <div></div>
         <div className="nav__menu-list">
           {MENU_LIST.map((menu, idx) => (
             <div
