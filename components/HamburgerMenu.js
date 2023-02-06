@@ -29,7 +29,9 @@ const HamburgerMenu = () => {
           <div className="navlist">
             {NAV_LIST.map((item, i) => (
               <div key={i} className="navtext">
-                <Link href={item.href}>{item.text}</Link>
+                <Link onClick={() => setActive(!active)} href={item.href}>
+                  {item.text}
+                </Link>
               </div>
             ))}
           </div>
