@@ -3,8 +3,9 @@ import React, { useState } from "react";
 
 const NAV_LIST = [
   { text: "Home", href: "/" },
-  { text: "This week", href: "/posts/Matt-Doherty-Leaves-FPL" },
-  { text: "Last week", href: "/posts/Arsenal-assets-HaaTricks" },
+  { text: "This week", href: "posts/Oh-Sa-la-lah-we-love-you-baby" },
+  { text: "Last week", href: "/posts/Is-it-Mee-youre-looking-for" },
+  { text: "Featured", href: "/posts/New-year-fantasy-targets" },
 ];
 
 const HamburgerMenu = () => {
