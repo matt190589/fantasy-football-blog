@@ -5,9 +5,9 @@ blogImage: "/images/Gameweek_22.png"
 coverImage: "/images/salah-cover.png"
 ---
 
-After a long, long, long quiet run of form, Salah produced a double digit haul for the first time since GW17. Luke Shaw was benched by many but had a storming week and Monsieur Haaland......
+After a long, long, long quiet run of form, Salah produced a double digit haul for the first time since GW17. Luke Shaw was benched by many but had a storming week and Monsieur Haaland scored again. He is front runner for the Triple Captain armband in GW28 or GW29. Saka continues to the prime Arsenal player with two games in the week after next.
 
-- **Gameweek 23**- A higher than average 72 points helped me continue my green arrow roll but KDB's continued absence is a costly waste of FPL funds. With Man City and Arsenal's DGW in 23, KDB gets one more chance with Almiron likely to make way for Saka in my starting XI. Man City continue to leak goals and Newcastle may be losing form. Willy Gnonto paid off my local loyality and he'll continue to be a danger even if Leeds are managerless.
+- **Gameweek 23**- KDB took last week's warning and reacted. This rewarded me to take me to another total of over 70 points. Captain Haaland and Saka's points helped me return my fifth green arrow in a row. My defence is not delivering but not many are currently. The highlight of my week was a narrow one point win in my head to head league. This takes the overall score to 16 - 6!
 
 - **Looking forward to GW24 & 25**- Thinking about GW25 is your most important transfer tactic over the next two weeks. Liverpool, Arsenal, Everton and Wolves all have doubles but as important is looking our for the teams that will blank in GW25. Hold all your Arsenal players for now and consider Salah, Robertson and Nunez for the coming two weeks. Not considering GW25, Chelsea's attack may be ready to unleash and Southampton always have 9 nil defeat in them.
 
