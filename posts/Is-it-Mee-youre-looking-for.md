@@ -3,6 +3,25 @@ title: "Is it Mee you're looking for?"
 date: "2023-02-10"
 blogImage: "/images/Gameweek_22.png"
 coverImage: "/images/ben-mee.png"
+tags:
+  [
+    "Mee",
+    "Arrizabalaga",
+    "Mahrez",
+    "Mitoma",
+    "Haaland",
+    "Rashford",
+    "KDB",
+    "De Bruyne",
+    "Gnonto",
+    "Almiron",
+    "Nketiah",
+    "Ream",
+    "Tete",
+    "Robinson",
+    "Shaw",
+    "Tarkowski",
+  ]
 ---
 
 Rashford runs riot with a leading Gameweek score of 20 points. A possible missed opportunity for using the Triple Captain chip. Ben Mee is averaging over 7 points a game in his last 5 starts and makes Brentford a formidable team to break down. Arrizabalaga is the only keeper in town at the minute with M&M, Mahrez & Mitoma, leading the way as on form midfielders.

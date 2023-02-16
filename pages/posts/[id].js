@@ -26,9 +26,6 @@ export default function Post({ postData }) {
             alt="My weekly fantasy team"
           />
         </div>
-        <div>
-          <h2>Tags:{postData.tags}</h2>
-        </div>
       </article>
     </Layout>
   );
