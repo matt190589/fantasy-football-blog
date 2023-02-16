@@ -3,6 +3,22 @@ title: "Oh Sa la lah, we love you baby!"
 date: "2023-02-16"
 blogImage: "/images/Gameweek_23.png"
 coverImage: "/images/salah-cover.png"
+tags:
+  [
+    "Salah",
+    "Haaland",
+    "Robertson",
+    "Haaland",
+    "Rashford",
+    "KDB",
+    "De Bruyne",
+    "Saka",
+    "Nunez",
+    "Toney",
+    "Joao Felix",
+    "Shaw",
+    "Toney",
+  ]
 ---
 
 After a long, long, long quiet run of form, Salah produced a double digit haul for the first time since GW17. Luke Shaw was benched by many but had a storming week and Monsieur Haaland scored again. He is front runner for the Triple Captain armband in GW28 or GW29. Saka continues to the prime Arsenal player with two games in the week after next.
