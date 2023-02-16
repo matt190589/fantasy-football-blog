@@ -1,16 +1,17 @@
+import SearchIcon from "@mui/icons-material/Search";
+
 export default function Search({ filterPosts }) {
   return (
     <div className="search">
-      <div>
-        <h1>
-          {" "}
-          Search:{" "}
-          <input
-            className="search-box"
-            placeholder="Enter team or player"
-            onInput={filterPosts}
-          />
-        </h1>
+      <div className="search-inputs">
+        <input
+          placeholder="Enter fantasy player......"
+          onInput={filterPosts}
+          type="text"
+        />
+        <div className="search-icon">
+          <SearchIcon />
+        </div>
       </div>
     </div>
   );

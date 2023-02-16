@@ -35,13 +35,13 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Search filterPosts={filterPosts} />
       <section className={utilStyles.headingMd}>
         <p>
           I'm the Fantasy Football Tipster! Every Game Week, I'll be here to
           discuss the best Ins and Outs before the upcoming transfer deadline
           while sharing my own wins and woes along the way.
         </p>
-        <Search filterPosts={filterPosts} />
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
