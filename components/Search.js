@@ -1,25 +1,16 @@
-import { useState } from "react";
-
-export default function Search({ searchTags }) {
-  const [allPosts, setAllPosts] = useState([]);
-
-  const filterPosts = (event) => {
-    console.log(event.target.value);
-    const value = event.target.value.toLowerCase();
-    const filteredPosts = allPosts.filter((user) =>
-      `${searchTags.tags}`.toLowerCase().includes(value)
-    );
-    setAllPosts(filteredPosts);
-  };
-
+export default function Search({ filterPosts }) {
   return (
     <div className="search">
       <div>
-        <input
-          className="search-box"
-          placeholder="Enter team or player"
-          onInput={filterPosts}
-        />
+        <h1>
+          {" "}
+          Search:{" "}
+          <input
+            className="search-box"
+            placeholder="Enter team or player"
+            onInput={filterPosts}
+          />
+        </h1>
       </div>
     </div>
   );

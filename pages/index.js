@@ -17,11 +17,9 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  // const [allPostsData, setAllPostsData] = useState([]);
   const [allPosts, setAllPosts] = useState(allPostsData);
-  console.log("allposts", allPosts);
-  console.log("allPostsData", allPostsData);
-  // console.log("tags", allPosts[0].tags);
+  // console.log("allposts", allPosts);
+  // console.log("allPostsData", allPostsData);
 
   const filterPosts = (event) => {
     console.log(event.target.value);
@@ -43,12 +41,7 @@ export default function Home({ allPostsData }) {
           discuss the best Ins and Outs before the upcoming transfer deadline
           while sharing my own wins and woes along the way.
         </p>
-        {/* <Search searchTags={allPostsData} /> */}
-        <input
-          className="search-box"
-          placeholder="Enter team or player"
-          onInput={filterPosts}
-        />
+        <Search filterPosts={filterPosts} />
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
