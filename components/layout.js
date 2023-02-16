@@ -32,16 +32,6 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Link href="/">
-              <Image
-                priority
-                src="/images/profile_logo.png"
-                className={utilStyles.borderSquare}
-                height={108}
-                width={165}
-                alt="Fantasy Football Tipster logo"
-              />
-            </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/" className={utilStyles.colorInherit}>
                 {name}
