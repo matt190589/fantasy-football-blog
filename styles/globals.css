@@ -23,8 +23,8 @@ a {
 }
 
 img {
-  min-width: 200px;
-  min-height: 100px;
+  width: 200px;
+  height: 100px;
   border-radius: 10px;
   object-fit: contain;
 }
@@ -150,7 +150,8 @@ header a {
 }
 
 .nav-logo {
-  width: 100px;
+  width: 130px;
+  height: 85px;
 }
 
 .hamburger {

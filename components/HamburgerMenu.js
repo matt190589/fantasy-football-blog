@@ -1,9 +1,10 @@
 import Link from "next/link";
 import React, { useState } from "react";
+import Image from "next/image";
 
 const NAV_LIST = [
   { text: "Home", href: "/" },
-  { text: "This week", href: "posts/Oh-Sa-la-lah-we-love-you-baby" },
+  { text: "This week", href: "/posts/Oh-Sa-la-lah-we-love-you-baby" },
   { text: "Last week", href: "/posts/Is-it-Mee-youre-looking-for" },
   { text: "Featured", href: "/posts/New-year-fantasy-targets" },
 ];
@@ -15,11 +16,13 @@ const HamburgerMenu = () => {
       <div className="nav-container">
         <div className="nav-wrapper">
           <Link href={"/"}>
-            <img
+            <Image
               priority
               src="/images/profile_logo.png"
               className="nav-logo"
               alt="Fantasy Football Tipster logo"
+              width={100}
+              height={100}
             />
           </Link>
           <div onClick={() => setActive(!active)}>
