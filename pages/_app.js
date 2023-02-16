@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <HamburgerMenu />
-      <main className="container">
+      <main>
         <Component {...pageProps} />
       </main>
     </>

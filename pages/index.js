@@ -3,6 +3,7 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import { useState } from "react";
+
 import CardPost from "../components/CardPost";
 import Search from "../components/Search";
 

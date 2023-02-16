@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Date from "../components/Date";
+import Image from "next/image";
 
 export default function CardPost({ allPostData }) {
   return (
