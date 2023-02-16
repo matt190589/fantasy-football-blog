@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-export default function Search() {
+export default function Search({ searchTags }) {
   const [allPosts, setAllPosts] = useState([]);
 
   const filterPosts = (event) => {
     console.log(event.target.value);
     const value = event.target.value.toLowerCase();
     const filteredPosts = allPosts.filter((user) =>
-      `${player.name.last} ${club.name}`.toLowerCase().includes(value)
+      `${searchTags.tags}`.toLowerCase().includes(value)
     );
     setAllPosts(filteredPosts);
   };

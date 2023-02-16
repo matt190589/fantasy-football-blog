@@ -3,6 +3,7 @@ title: "Matt Doherty says Goodbye to FPL"
 date: "2023-02-01"
 blogImage: "/images/January-shop-window.png"
 coverImage: "/images/Matt-Doherty-Goodbye.png"
+tags: ['Doherty', 'Cancelo', 'Lewis', 'LLorente', 'Gakpo', 'Badiashile', 'Mudyrk', 'Gordon', 'Lingard']
 ---
 
 As much as I have considered it while languishing at the bottom of so many mini-leagues, I am still managing in the FPL. However, my namesake has joined Atletico Madrid leaving many of his owners in the lurch and he's not the only one. In this post, I'll discuss the January transfer window and how the player movements could make major or minor differences in the next few months.
