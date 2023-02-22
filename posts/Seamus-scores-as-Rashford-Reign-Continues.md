@@ -21,13 +21,20 @@ tags:
     "Gakpo",
     "Mitoma",
     "Trippier",
+    "Leno",
+    "Mykolenko",
+    "Watkins",
+    "Iheanacho",
+    "Estupinian",
+    "Kane",
+    "Son",
   ]
 ---
 
-After a long, long, long quiet run of form, Salah produced a double digit haul for the first time since GW17. Luke Shaw was benched by many but had a storming week and Monsieur Haaland scored again. He is front runner for the Triple Captain armband in GW28 or GW29. Saka continues to the prime Arsenal player with two games in the week after next.
+Rashford's revival coincides with Ronaldo's departure and the opportunities for Bruno Fernandes in the number 10 role. This should continue but an incoming Blank in GW25 for Man United will slow down their scoring temporarily. Man City's inconsistency continues and with the restarting of the Champions league, this may continue. A notable mention to Leno along with th Fulham defence that is doing an outstanding job.
 
 - **Gameweek 24**- One I'd preferably like to forget. No good decisions were made going into GW24. Haaland blanked, Martinelli scored late, Martinez kept a clean sheet and my combined defense scored 7 points. Ederson is overpriced and will be exiting quickly. A meagre 40 points helped me to another H2H defeat, an exit from cups and the lose of my green arrow streak.
 
-- **Looking forward to GW25**- Thinking about GW25 is your most strategically important over the next two weeks. Liverpool, Arsenal, Everton and Wolves all have doubles but as important is looking our for the teams that will blank in GW25. Hold all your Arsenal players for now and consider Salah, Robertson and Nunez for the coming two weeks. Not considering GW25, Chelsea's attack may be ready to unleash and Southampton always have 9 nil defeat in them.
+- **Looking forward to GW25**- The early movers for Tarkowski were rewarded early but opting for Tarkowski, Mykolenko or Coady could pay off again in GW25. Be wary of Coleman with Patterson returning to fitness. It seems necessary to bring in Salah with many managers also opting for Gakpo. The jury is still out on the Liverpool defence. Treble Arsenal will be the road for many.
 
-- **One's to watch**- Maddison may be back but Leicester face a few difficult matches before Soton in GW26. He's worth tracking. The statistics behind Joao Felix are promising and I'd recommend keeping an eye on him. Brentford's form is not temporary and I expect Toney to continue to be in the goals and points in the next few weeks.
+- **One's to watch**- Without focusing on the double game week, Watkins in the forward on form a long with Iheanacho at Leicester. I'd opt for Ollie Watkins with favourable upcoming fixtures. Beyond GW25, Mitoma and Estupinian will continue to dominate at their respective prices. My tip after GW25 is to jump on the Son and Kane show.
