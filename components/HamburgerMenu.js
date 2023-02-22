@@ -4,8 +4,11 @@ import Image from "next/image";
 
 const NAV_LIST = [
   { text: "Home", href: "/" },
-  { text: "This week", href: "/posts/Oh-Sa-la-lah-we-love-you-baby" },
-  { text: "Last week", href: "/posts/Is-it-Mee-youre-looking-for" },
+  {
+    text: "This week",
+    href: "/posts/Seamus-scores-as-Rashford-Reign-Continues",
+  },
+  { text: "Last week", href: "/posts/Oh-Sa-la-lah-we-love-you-baby" },
   { text: "Featured", href: "/posts/New-year-fantasy-targets" },
 ];
 

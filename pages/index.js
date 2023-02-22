@@ -3,7 +3,6 @@ import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import { useState } from "react";
-
 import CardPost from "../components/CardPost";
 import Search from "../components/Search";
 
@@ -18,9 +17,6 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   const [allPosts, setAllPosts] = useState(allPostsData);
-  // console.log("allposts", allPosts);
-  // console.log("allPostsData", allPostsData);
-
   const filterPosts = (event) => {
     console.log(event.target.value);
     const value = event.target.value.toLowerCase();
