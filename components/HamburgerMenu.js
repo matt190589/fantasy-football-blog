@@ -6,11 +6,11 @@ const NAV_LIST = [
   { text: "Home", href: "/" },
   {
     text: "This week",
-    href: "/posts/Martinelli-masterclass",
+    href: "/posts/Mitoma-mac-attack",
   },
   {
     text: "Last week",
-    href: "/posts/Seamus-scores-as-Rashford-Reign-Continues",
+    href: "/posts/Martinelli-masterclass",
   },
   { text: "Featured", href: "/posts/New-year-fantasy-targets" },
 ];
