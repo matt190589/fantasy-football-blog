@@ -15,7 +15,7 @@ tags:
     "Saka",
     "Ward-Prowse",
     "Leno",
-    "Martnelli",
+    "Martinelli",
     "Fernandes",
     "Tarkowski",
     "Gakpo",
