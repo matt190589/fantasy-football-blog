@@ -10,7 +10,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/FF_Logo.svg" />
         <meta
           name="description"
           content="Get weekly tips on the best transfer targets for your FPL team"
