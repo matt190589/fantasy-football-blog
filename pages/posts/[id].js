@@ -17,7 +17,7 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         <div>
-          <h1>Team Insight</h1>
+          <h1 className="post-title">Team Insight</h1>
           <img
             className="card-img"
             src={postData.blogImage}
