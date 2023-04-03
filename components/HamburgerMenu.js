@@ -15,7 +15,7 @@ const NAV_LIST = [
   { text: "Featured", href: "/posts/New-year-fantasy-targets" },
   {
     text: "Captain Roulette",
-    href: "",
+    href: "/featurePage",
   },
 ];
 

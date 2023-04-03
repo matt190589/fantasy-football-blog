@@ -16,9 +16,52 @@ export default function PlayerFeature() {
             src="/images/ben-mee.png"
             className={featureStyles.card__image}
           ></img>
-          <div className={featureStyles.card__content}></div>
-          <p>Stats </p>
-          <p>Stats 2</p>
+          <div className={featureStyles.card__content}>
+            <p>Stats </p>
+            <p>Stats 2</p>
+          </div>
+          <div className={featureStyles.card__info}>
+            <div>
+              <span class="material-symbols-outlined">thumb_up</span>199
+            </div>
+            <div>
+              <a href="./" className={featureStyles.card__link}>
+                {" "}
+                Player info
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={featureStyles.card}>
+          <img
+            src="/images/ben-mee.png"
+            className={featureStyles.card__image}
+          ></img>
+          <div className={featureStyles.card__content}>
+            <p>Stats </p>
+            <p>Stats 2</p>
+          </div>
+          <div className={featureStyles.card__info}>
+            <div>
+              <span class="material-symbols-outlined">thumb_up</span>199
+            </div>
+            <div>
+              <a href="./" className={featureStyles.card__link}>
+                {" "}
+                Player info
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={featureStyles.card}>
+          <img
+            src="/images/ben-mee.png"
+            className={featureStyles.card__image}
+          ></img>
+          <div className={featureStyles.card__content}>
+            <p>Stats </p>
+            <p>Stats 2</p>
+          </div>
           <div className={featureStyles.card__info}>
             <div>
               <span class="material-symbols-outlined">thumb_up</span>199

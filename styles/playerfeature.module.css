@@ -1,5 +1,55 @@
 .cards {
-    margin: 0 auto;
+    margin: 100px auto;
     max-width: 1000px;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    font-family: sans-serif;
+}
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__image {
+    width: 100%;
+    display: block;
+}
+.card__content {
+    line-height: 1.5;
+    font-size: 1em;
+    padding: 15px;
+    background: rgba(214, 226, 255, 0.8);
+}
+
+.card__content > p:first-of-type{
+    margin-top: 0;
+}
+
+.card__content>p:last-of-type {
+    margin-bottom: 0;
+}
+
+.card__info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #cccccc;
+    color: rgb(70, 130, 180);
+}
+
+.card__info span {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.card__link{
+    color: rgb(70, 130, 180);
+    text-decoration: none;
+
+}
+.card__link:hover {
+    text-decoration: underline;
 }
