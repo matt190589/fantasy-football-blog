@@ -2,12 +2,18 @@
     margin: 100px auto;
     max-width: 1000px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
     gap: 50px;
     font-family: sans-serif;
 }
 .card {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+    color: rgb(70, 130, 180);
+    margin: 10px 0px 10px 0px;
+    text-align: center;
 }
 
 .card__image {

@@ -12,6 +12,7 @@ export default function PlayerFeature() {
       </Head>
       <div className={featureStyles.cards}>
         <div className={featureStyles.card}>
+          <h1>Steady Eddy!</h1>
           <img
             src="/images/ben-mee.png"
             className={featureStyles.card__image}
@@ -33,6 +34,7 @@ export default function PlayerFeature() {
           </div>
         </div>
         <div className={featureStyles.card}>
+          <h1>Differential</h1>
           <img
             src="/images/ben-mee.png"
             className={featureStyles.card__image}
@@ -54,6 +56,7 @@ export default function PlayerFeature() {
           </div>
         </div>
         <div className={featureStyles.card}>
+          <h1>Captain Risk!!!</h1>
           <img
             src="/images/ben-mee.png"
             className={featureStyles.card__image}

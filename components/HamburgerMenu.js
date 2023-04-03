@@ -13,10 +13,10 @@ const NAV_LIST = [
     href: "/posts/Trossards-Terrific-Treble",
   },
   { text: "Featured", href: "/posts/New-year-fantasy-targets" },
-  {
-    text: "Captain Roulette",
-    href: "/featurePage",
-  },
+  // {
+  //   text: "Captain Roulette",
+  //   href: "/featurePage",
+  // },
 ];
 
 const HamburgerMenu = () => {
