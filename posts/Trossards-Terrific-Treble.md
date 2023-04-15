@@ -1,5 +1,5 @@
 ---
-title: "Trossards Terrific Treble"
+title: "Trossards terrific treble"
 date: "2023-03-16"
 blogImage: "/images/Gameweek_27.png"
 coverImage: "/images/Trossaed_Triple.png"
